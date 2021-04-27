@@ -1,8 +1,12 @@
+import React from 'react';
 import './App.scss';
+import Navbar from "./components/Navbar/Navbar"
 
 function App() {
   return (
-    <h1>our fancy app</h1>
+    <React.Fragment>
+      <Navbar />
+    </React.Fragment>
   );
 }
 
