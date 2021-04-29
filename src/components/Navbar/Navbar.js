@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <nav className="navbar">
             {/* <img src={logo} alt="city tours company"></img> */}
-            <div className="navBrand">Leyte Islands <span>Tours</span></div>
+            <div className="navBrand">Leyte<span>Tours</span></div>
             <ul className="nav-links">
                 <li>
                     <a href="/" className="nav-link">home</a>
